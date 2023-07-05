@@ -1,0 +1,14 @@
+adx_append: false
+adx_appendto: false
+adx_create: false
+adx_delete: false
+adx_entitylogicalname: cr829_propertyfeaturetable
+adx_entityname: Active PropertyFeatureTables
+adx_entitypermission_webrole:
+- 2dd00188-cf07-ee11-8f6e-0022489334d1
+- 87152585-c807-ee11-8f6e-000d3aca76e9
+- 88152585-c807-ee11-8f6e-000d3aca76e9
+adx_entitypermissionid: 5793135d-6008-ee11-8f6e-000d3aca76e9
+adx_read: true
+adx_scope: 756150000
+adx_write: false

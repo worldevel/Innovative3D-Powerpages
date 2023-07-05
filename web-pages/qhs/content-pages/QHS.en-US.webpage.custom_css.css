@@ -1,0 +1,310 @@
+.headtext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;    
+  }
+  .titletext {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 12px;
+  color: #05386f;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 4px;
+  }
+  .usertext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    color: #05386f;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 10px;
+    }
+  
+  .ICNav {
+    height: calc(100% - 130px);
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    color: #05386f;
+    position: fixed;
+    line-height: 18px;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .ICNavFooter {
+    height: 150px;
+    width: 20%;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    color: #05386f;
+    position: fixed;
+    line-height: 14px;
+    left: 0;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  .ICNavContainer {
+    position: relative;
+    height: calc(100% - 60px);
+    top: 0;
+    overflow-y: auto;
+  }
+  
+  .ICNavContainer::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .ICNavContainer::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #95a5a6;
+    border: 1px solid #cacaca;
+  }
+  
+  .ICNavContainer::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #05386f;
+  }
+  
+  .homebtn {
+    background-color: #05386f;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 85%;
+    border: none;
+    text-align: middle;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: top;
+  }
+  
+  .homebtn:hover {
+    background-color: white;
+    color: #05386f;
+  }
+  
+  .helpbtn, .signOutBtn {
+    background-color: #05386f;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    padding-left: 7%;
+    line-height: 34px;
+    margin-left: 16px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 65%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .helpbtn i {
+    margin-right: 16px; 
+  }
+  .helpbtn:hover {
+    background-color: #05386f;
+    color: white;
+  }
+  .helpbtn:before {
+    content: none;
+  }
+  
+  .collapsible {
+    background-color: white;
+    color: #05386f;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+  }
+  .collapsible i {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  
+  .collapsiblesub1 {
+    background-color: white;
+    color: #05386f;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    margin-left: 12px;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+  }
+  .collapsiblesub1 i {
+    margin-right: 6px; 
+    margin-left: 6px;
+  }
+  
+  .collapsiblesub2 {
+    background-color: white;
+    color: #05386f;
+    cursor: pointer;
+    padding: 12px;
+    margin-left: 24px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+  
+  .editbtn {
+    background-color: white;
+    color: #05386f;
+    cursor: pointer;
+    padding: 0px;
+    width: 10%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .collapsiblesub1.active + .content {
+    padding-left: 0;
+  }
+  
+  .active, .collapsible:hover, .collapsiblesub1.active, .collapsiblesub1:hover, .helpbtn:hover, .editbtn:hover {
+    background-color: #05386f;
+    color: white;
+    text-decoration: underline;
+    text-align: left;  
+  }
+  .avtive, .collapsiblesub2.active, .collapsiblesub2:hover {
+    text-decoration: underline;
+  }
+  
+  .menuhoveractive {
+    background-color: #05386f;
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+    
+  }
+  .collapsiblehome span {
+    padding-left: 10px;
+    }
+    
+  .collapsiblesub1 span {
+    padding-left: 12px;
+  }
+  
+  .collapsiblesub2 span {
+    padding-left: 24px;
+  }
+  
+  .content {
+    padding: 0px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .subcontent {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .subcontent p {
+    margin-left: 0px;
+  }
+  
+  .ICMedia {
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    transform-origin: top left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  }
+  
+  .ICMedia iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+  }
+  
+  .ICMediaFooter {
+    height: 25px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .ICMediaFooterText {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    margin-top: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    
+  }
+  .navbar,footer{
+    display:none !important;
+  }
+  
+  
